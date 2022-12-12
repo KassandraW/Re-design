@@ -10,38 +10,53 @@
     <meta name="robots" content="noindex, nofollow">
 
 </head>
-<body>
+<body id="backgroundimg" id="overlay">
     <header>
-        <nav>
+        <div class="navbar">
+        
+          <a href="forside.html">
+            <img class="logo" src="images/logo.png" alt="Logo"
+          /></a>
+        
+          <nav>
             <ul>
-                <!-- <li> <a href="forside.html"> <img src="" alt="Logo"></a></li> Billede af logo, som fører til forside -->
-                <li> <a href="behandlinger.html"> "Behandlinger"</a></li>
-                <li> <a href="omklinikken.html"> "Om klinikken"</a> </li>
-                <li><a href="priser.html"> "Priser"</a></li>
-                <li><a href="kontakt.html"> "Kontakt"</a></li>
+              <li><a href="behandlinger.html">Behandlinger</a></li>
+              <li><a href="priser.html">Priser</a></li>
+              <li><a href="omklinikken.html">Om klinikken</a></li>
+              <li><a class="active" href="kontakt.html">Kontakt</a></li>
             </ul>
-        </nav>
-    </header>
+          </nav>
+        </div>
+      </header>
     <main>
-        <h1>Kontakt</h1>
-        <h2>Riisager zoneterapi</h2>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <img src="" alt="Kort">
-        <h2>Åbningstider</h2>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <h2>Kontakt klnikken</h2>
-        <form action=""></form>
+        <div class="baggrund">
+            <div class="indhold">
+                <h3>Kontakt</h3>
+                <div class="baggrund_hvid grid-1_1">
+                    <div class="oplysninger grid_row">
+                        
+                            <h4>Riisager zoneterapi</h4>
+                            <ul class="kontaktoplysninger">
+                                <li><div class="tlf"></div>29 43 87 59</li>
+                                <li><div class="email"></div>nina@riisager.zone</li>
+                                <li><div class="facebook"></div>Riisager Zoneterapi</li>
+                                <li><div class="adresse"></div>Chr. Winthers vej 26 4700 Næstved</li>
+                                <li><div class="cvr"></div>37 31 34 91 (CVR)</li>
+                            </ul>
+                        
+
+                            <div class="oplysninger">
+                                <h4>Åbningstider</h4>
+                            </div>
+                    </div>
+                        <img src="images/kontakt_kort.png" alt="Kort" class="kort">
+                </div>
+            </div>
+            <div class="baggrund_creme">
+                <h4 class="hvid">Kontakt klinikken</h4>
+                <form action=""></form>
+            </div>
+        </div>
     </main>
     <footer>
         <ul>
@@ -49,7 +64,7 @@
             <li>Tlf: 29 43 87 59</li>
             <li>Chr. Winthers vej 26, 4700 Næstved</li>
         </ul>
-        <img src="" alt="Logo">
+        <img src="images/Logo2.png" alt="Logo" id="rablogo">
     </footer>
 </body>
 </html>
