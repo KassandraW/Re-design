@@ -14,6 +14,14 @@
   font-weight: 320;
   src: url("../font/RobotoSlab-VariableFont_wght.ttf");
 }
+
+@font-face {
+  font-family: "Caveat";
+  /* font-weight:380 ; */
+  src: url("../font/Caveat-VariableFont_wght.ttf");
+}
+
+
 :root {
   --clr-body: #f2ece7;
   --clr-overlay: rgba(239, 230, 223, 0.53);
@@ -45,6 +53,23 @@ a:visited {
   margin-bottom: 0%;
   width: 27%;
   cursor: pointer;
+}
+
+h1{
+  font-family: Caveat;
+  color: white;
+  font-size: 10vw;
+  margin:0;
+  padding:0;
+}
+
+h2{
+  color: white;
+  font-family: Noto-light;
+  font-size: 3vw;
+  letter-spacing: 15px;
+  margin:0;
+  padding:0;
 }
 
 h3 {
