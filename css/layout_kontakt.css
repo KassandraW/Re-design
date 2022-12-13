@@ -156,6 +156,10 @@ button{
     font-size: 15px;
 }
 
+button:hover{
+background-color: #a18c88;
+}
+
 /* Navigation */
 .navbar {
     display: flex;
