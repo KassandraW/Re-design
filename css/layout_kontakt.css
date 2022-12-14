@@ -197,7 +197,7 @@ nav a:after {
   content: ".";
   color: transparent;
   background: rgba(239, 230, 223, 0.2);
-  visibility: none;
+  visibility: hidden;
   opacity: 0;
   z-index: -1;
 }
