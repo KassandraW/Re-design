@@ -1,20 +1,20 @@
 @font-face {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab";
   src: url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 }
 
 @font-face {
-  font-family: "Noto Sans Kannada", sans-serif;
+  font-family: "Noto Sans Kannada";
   src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada&display=swap");
 }
 
 @font-face {
-  font-family: "Caveat", cursive;
+  font-family: "Caveat";
   src: url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 }
 
 @font-face {
-  font-family: "Cutive Mono", monospace;
+  font-family: "Cutive Mono";
   src: url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
 }
 
@@ -99,7 +99,7 @@
     content: ".";
     color: transparent;
     background: rgba(239, 230, 223, 0.2);
-    visibility: none;
+    visibility: hidden;
     opacity: 0;
     z-index: -1;
   }
@@ -188,7 +188,7 @@
     margin: 10%;
   }
 
-  #posli {
+  .posli {
     font-family: Roboto;
     font-size: 15px;
     color: white;
